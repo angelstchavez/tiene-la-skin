@@ -201,7 +201,17 @@ export default function SkinDetector() {
 
         <div className="text-center mt-8 text-white/60 text-sm space-y-2">
           <p>Powered by Advanced AI Technology • Precisión del 99.9%</p>
-          <p className="text-white/40">Desarrollado por Angel Chavez</p>
+          <p className="text-white/40">
+            Desarrollado por{" "}
+            <a
+              href="https://github.com/angelstchavez"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-white/60"
+            >
+              Angel Chavez
+            </a>
+          </p>
         </div>
       </div>
     </div>
